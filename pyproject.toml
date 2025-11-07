@@ -1,0 +1,14 @@
+[project]
+name = "aibro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.120.0",
+    "langchain>=1.0.2",
+    "langchain-dev-utils>=1.1.0",
+    "langchain-openai>=1.0.1",
+    "python-dotenv>=1.2.1",
+    "uvicorn>=0.38.0",
+]
